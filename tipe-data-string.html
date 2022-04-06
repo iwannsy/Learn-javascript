@@ -1,21 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tipe Data String</title>
 </head>
+
 <body>
 
     <script>
-
         //bisa menggunakan plus +
-    document.writeln("Nama = " + "Bens"); //menggunakan petik dua
-    document.writeln("<br>");
-    document.writeln('Hall' + 'of' + 'Bens'); //menggunakan petik satu
-</script>
+        document.writeln("Nama = " + "Bens"); //menggunakan petik dua
+        document.writeln("<br>");
+        document.writeln('Hall' + 'of' + 'Bens'); //menggunakan petik satu
+
+        document.writeln("<br>");
+
+
+        //menggunakan escape squence
+        document.writeln("<textarea cols='100' rows='10'>");
+
+            document.writeln("Hall\n of \nBens") //untuk enter menggunakan \n      
+            document.writeln("\\Hall of \\Bens") //untuk menggunakan slash \\ 2x = 1\
+            document.writeln("\"Hall of Bens\"") //untuk menggunakan petik 2 \"
+            document.writeln("\'Hall of Bens\'") //untuk menggunakan petik 1 \'
+
+        document.writeln("</textarea>");
+    </script>
 
 
 </body>
+
 </html>
